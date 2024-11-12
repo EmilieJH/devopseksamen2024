@@ -7,7 +7,7 @@ from datetime import datetime
 
 # Initialize AWS clients
 bedrock_client = boto3.client("bedrock-runtime", region_name="us-east-1")
-s3_client = boto3.client("s3")
+s3_client = boto3.client("s3", region_name="eu-west-1")
 
 def lambda_handler(event, context):
     try:
