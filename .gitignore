@@ -1,0 +1,51 @@
+# AWS SAM build artifacts
+.aws-sam/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE/editor directories and files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Editor-based HTTP Client requests
+/httpRequests/
+
+# Datasource local storage ignored files
+/dataSources/
+dataSources.local.xml
+
+# Miscellaneous
+shelf/
+*.log
+*.swp
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
+
+# Build directories
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Secrets and environment variables
+*.pem
+*.crt
+*.key
+
+# Temporary files
+*.bak
+*.tmp
+/.idea/
