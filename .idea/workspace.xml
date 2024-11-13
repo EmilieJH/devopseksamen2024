@@ -5,138 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/eksamen2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/tests/integration/test_api_gateway.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/tests/unit/test_handler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/deploy_lambda.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy_lambda.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/build.toml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi-2024.8.30.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi-2024.8.30.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi-2024.8.30.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi-2024.8.30.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi-2024.8.30.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi/cacert.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/certifi/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer-3.4.0.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer-3.4.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer-3.4.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer-3.4.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer-3.4.0.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer-3.4.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/cd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/cli/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/cli/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/constant.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/legacy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/md.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/charset_normalizer/version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna-3.10.dist-info/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna-3.10.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna-3.10.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna-3.10.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/codec.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/core.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/idnadata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/intranges.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/package_data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/idna/uts46data.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests-2.32.3.dist-info/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests-2.32.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests-2.32.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests-2.32.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests-2.32.3.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/__version__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/_internal_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/adapters.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/api.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/auth.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/certs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/cookies.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/help.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/hooks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/packages.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/sessions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/status_codes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/structures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/requests/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3-2.2.3.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3-2.2.3.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3-2.2.3.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3-2.2.3.dist-info/licenses/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/_base_connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/_collections.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/_request_methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/_version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/connectionpool.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/emscripten/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/emscripten/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/emscripten/emscripten_fetch_worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/emscripten/fetch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/emscripten/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/emscripten/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/pyopenssl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/contrib/socks.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/exceptions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/fields.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/filepost.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/http2/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/http2/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/http2/probe.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/poolmanager.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/py.typed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/proxy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/request.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/response.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/retry.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/ssl_.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/ssl_match_hostname.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/ssltransport.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/timeout.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/url.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/util.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.aws-sam/deps/f9e033b1-5f40-4da2-825f-1ca331bff5db/urllib3/util/wait.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/oppgave/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/events/event.json" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/events/event.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/hello_world/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/tests/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/hello_world/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/oppgave/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/hello_world/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/oppgave/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/samconfig.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/samconfig.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/template.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/template.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/tests/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/tests/integration/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/tests/integration/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/tests/unit/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/tests/integration/test_api_gateway.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/tests/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/tests/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/tests/unit/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-lambda/tests/unit/test_handler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +107,7 @@
       <workItem from="1731443213040" duration="799000" />
       <workItem from="1731444190633" duration="4601000" />
       <workItem from="1731449681720" duration="2850000" />
-      <workItem from="1731452905130" duration="4365000" />
+      <workItem from="1731452905130" duration="5605000" />
     </task>
     <servers />
   </component>
