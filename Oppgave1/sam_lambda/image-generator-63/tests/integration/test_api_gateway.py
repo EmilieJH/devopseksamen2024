@@ -15,7 +15,7 @@ class TestApiGateway:
     @pytest.fixture()
     def api_gateway_url(self):
         """Retrieve the API Gateway URL from CloudFormation Stack outputs."""
-        stack_name = os.environ.get("AWS_SAM_STACK_NAME")
+        stack_name = os.environ.get("AWS_SAM_STACK_NAME", "image-generator-63")
         print(f"AWS_SAM_STACK_NAME: {stack_name}")  # Debugging line
 
         if stack_name is None:

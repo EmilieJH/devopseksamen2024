@@ -26,10 +26,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Run Tests
+        run: |
+          pytest -s -v
+
   deploy:
-    needs: build
+    needs: build-and-test
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    env:
+      AWS_SAM_STACK_NAME: image-generator-63
+      BUCKET_NAME: pgr301-couch-explorers
+      CANDIDATE_NUMBER: 63
 
     steps:
       - name: Checkout Code
