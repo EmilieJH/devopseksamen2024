@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/oppgave/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy_lambda.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy_lambda.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +103,7 @@
       <workItem from="1731443213040" duration="799000" />
       <workItem from="1731444190633" duration="4601000" />
       <workItem from="1731449681720" duration="2850000" />
-      <workItem from="1731452905130" duration="6445000" />
+      <workItem from="1731452905130" duration="6620000" />
     </task>
     <servers />
   </component>
