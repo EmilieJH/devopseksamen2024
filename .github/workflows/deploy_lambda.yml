@@ -69,5 +69,7 @@ jobs:
 
       - name: Deploy SAM Application
         run: |
-          sam deploy --no-confirm-changeset --no-fail-on-empty-changeset
-
+          sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name image-generator-${{ env.CANDIDATE_NUMBER }} \
+            --s3-bucket ${{ env.BUCKET_NAME }} \
+            --capabilities CAPABILITY_IAM \
+            --region eu-west-1
