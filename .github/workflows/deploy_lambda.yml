@@ -72,11 +72,13 @@ jobs:
 
       - name: Build SAM Application
         run: |
-          sam build
+          sam build -t Oppgave1/sam_lambda/image-generator-63/template.yml
 
       - name: Deploy SAM Application
         run: |
-          sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name image-generator-${{ env.CANDIDATE_NUMBER }} \
+          sam deploy --template-file Oppgave1/sam_lambda/image-generator-63/template.yml \
+            --no-confirm-changeset --no-fail-on-empty-changeset \
+            --stack-name image-generator-${{ env.CANDIDATE_NUMBER }} \
             --s3-bucket ${{ env.BUCKET_NAME }} \
             --capabilities CAPABILITY_IAM \
             --region eu-west-1
