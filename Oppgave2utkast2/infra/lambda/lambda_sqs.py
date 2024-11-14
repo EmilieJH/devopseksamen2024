@@ -11,7 +11,7 @@ s3_client = boto3.client("s3")
 
 MODEL_ID = "amazon.titan-image-generator-v1"
 BUCKET_NAME =  os.environ["BUCKET_NAME"]
-PREFIX = os.environ.get("S3_PREFIX", "")
+FOLDER_PREFIX = os.environ["FOLDER_PREFIX"]
 
 def lambda_handler(event, context):
     # Loop through all SQS records in the event
@@ -19,7 +19,7 @@ def lambda_handler(event, context):
         # Extract the SQS message body
         prompt = record["body"]
         seed = random.randint(0, 2147483647)
-        s3_image_path = f"{PREFIX}images/titan_{seed}.png"
+        s3_image_path = f"{FOLDER_PREFIX}/images/titan_{seed}.png"
         # Prepare the request for image generation
         native_request = {
             "taskType": "TEXT_IMAGE",

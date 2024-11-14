@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/iam.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/lambda.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/lambda_code/lambda_sqs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/main.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/outputs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/sqs.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/variables.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/lambda_code/function.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/iam.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/lambda.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/lambda_code/lambda_sqs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2/infra/lambda_code/lambda_sqs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/main.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/outputs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/sqs.tf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2/infra/variables.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave2utkast2\infra" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave2\infra\lambda_code" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave1\sam_lambda\image-generator-63" />
@@ -130,6 +132,8 @@
       <workItem from="1731449681720" duration="2850000" />
       <workItem from="1731452905130" duration="8461000" />
       <workItem from="1731461622351" duration="6811000" />
+      <workItem from="1731607050104" duration="5679000" />
+      <workItem from="1731612872865" duration="6551000" />
     </task>
     <servers />
   </component>
