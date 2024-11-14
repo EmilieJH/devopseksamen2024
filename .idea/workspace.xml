@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy_lambda.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy_lambda.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/iam.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/lambda.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/lambda_code/lambda_sqs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/sqs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/variables.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/samconfig.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave1/sam_lambda/image-generator-63/samconfig.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +42,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;oppgave2&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/emili/OneDrive/Skrivebord/DevOpsEksamen/eksamen2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -51,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave2\infra\lambda_code" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave1\sam_lambda\image-generator-63" />
     </key>
@@ -122,7 +129,7 @@
       <workItem from="1731444190633" duration="4601000" />
       <workItem from="1731449681720" duration="2850000" />
       <workItem from="1731452905130" duration="8461000" />
-      <workItem from="1731461622351" duration="3666000" />
+      <workItem from="1731461622351" duration="6811000" />
     </task>
     <servers />
   </component>
