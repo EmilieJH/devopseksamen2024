@@ -33,6 +33,7 @@ Thumbs.db
 
 # Pytest cache
 .pytest_cache/
+*.pyc
 
 # Build directories
 build/
@@ -49,3 +50,23 @@ dist/
 *.bak
 *.tmp
 /.idea/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Lambda package
+lambda_package.zip
+lambda_function/package/
+
+# GitHub Actions
+.env
