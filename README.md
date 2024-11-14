@@ -5,4 +5,6 @@ Oppgave 2
 
 Oppgave 2.b
 
-Terraform apply test
+Terraform apply test på push til main:
+
+Bare Terraform plan:
