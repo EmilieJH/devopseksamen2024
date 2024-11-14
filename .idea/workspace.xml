@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/terraform_deploy.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave2utkast2/infra/event_source_mapping.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2utkast2/infra/event_source_mapping.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave2utkast2/infra/sqs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2utkast2/infra/sqs.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +125,7 @@
       <workItem from="1731452905130" duration="8461000" />
       <workItem from="1731461622351" duration="6811000" />
       <workItem from="1731607050104" duration="5679000" />
-      <workItem from="1731612872865" duration="9100000" />
+      <workItem from="1731612872865" duration="10465000" />
     </task>
     <servers />
   </component>
