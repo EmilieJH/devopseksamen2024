@@ -97,3 +97,5 @@ cloudwatch_alarm.tf
 Gjøre:
 sjekke bilder og link til bare plan på nytt + bilde
 oppgave 4 sjekke om du kan overbelaste
+putte bilder i egen folder + comments på filene
+oppgave5
