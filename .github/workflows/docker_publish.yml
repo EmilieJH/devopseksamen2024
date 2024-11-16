@@ -48,4 +48,4 @@ jobs:
           docker run -e AWS_ACCESS_KEY_ID=${{ secrets.AWS_ACCESS_KEY_ID }} \
                  -e AWS_SECRET_ACCESS_KEY=${{ secrets.AWS_SECRET_ACCESS_KEY }} \
                  -e SQS_QUEUE_URL=${{ secrets.SQS_QUEUE_URL }} \
-                 ${{ secrets.DOCKERHUB_USERNAME }}/imagegenerator:latest "me on top of a pyramid"
+                 ${{ secrets.DOCKERHUB_USERNAME }}/imagegenerator:latest "a cat on top of a pyramid"
