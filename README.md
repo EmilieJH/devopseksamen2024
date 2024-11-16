@@ -52,3 +52,19 @@ emhal/imagegenerator
 .... SQS_QUEUE_URL=https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63 emhal/imagegenerator:latest "a pyramid"
 
 ### Oppgave 4.a
+
+Siden oppgave 4 bygger på oppgave 2 skriver jeg en liste med hvilke filer jeg har endret og legger til kommentarer i de filene som viser hva som tilhører oppgave 4
+
+**ALLE FILENE UTENOM WORKFLOWS LIGGER UNDER Oppgave2/infra**
+
+**Endrede filer:**
+
+variables.tf
+outputs.tf
+main.tf
+.github/workflows/terraform_deploy
+
+**Nye filer:**
+
+sns_topic.tf
+cloudwatch_alarm.tf

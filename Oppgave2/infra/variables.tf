@@ -17,3 +17,10 @@ variable "s3_folder_prefix" {
   description = "Name of the folder images should be stored in"
   default     = "63"
 }
+
+# OPPGAVE 4 CODE:
+variable "alarm_email" {
+  description = "E-mail for CloudWatch-alarm."
+  type        = string
+}
+# OPPGAVE 4 end
