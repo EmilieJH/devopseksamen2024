@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/cloudwatch_alarm.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/sns_topic.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Oppgave2/infra/versions.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/terraform_deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/terraform_deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/.terraform.lock.hcl" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2/infra/.terraform.lock.hcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/outputs.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2/infra/outputs.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/variables.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2/infra/variables.tf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +194,7 @@
       <workItem from="1731612872865" duration="12003000" />
       <workItem from="1731759826912" duration="4938000" />
       <workItem from="1731765125505" duration="665000" />
-      <workItem from="1731765827828" duration="13325000" />
+      <workItem from="1731765827828" duration="15431000" />
     </task>
     <servers />
   </component>
