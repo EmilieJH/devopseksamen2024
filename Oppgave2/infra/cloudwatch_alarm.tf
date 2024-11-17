@@ -8,7 +8,7 @@ resource "aws_cloudwatch_metric_alarm" "sqs_age_alarm" {
   namespace           = "AWS/SQS"
   period              = "300" # 5 minutes
   statistic           = "Maximum"
-  threshold           = "300" # 300 seconds
+  threshold           = "2" # 300 seconds
   alarm_description   = "Alarm when the oldest in the SQS queue is older than 5 minutes."
   dimensions = {
     QueueName = var.sqs_queue_name
