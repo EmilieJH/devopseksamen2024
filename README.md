@@ -61,7 +61,7 @@ https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63
 
 aws sqs send-message --queue-url https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63 --message-body "A cat reading a book"
 
-
+<br>
 
 ### Oppgave 3.a + 3.b
 
@@ -101,7 +101,6 @@ sns_topic.tf </br>
 cloudwatch_alarm.tf </br>
 
 Gjøre:
-sjekke bilder og link til bare plan på nytt + bilde
 oppgave 4 sjekke om du kan overbelaste
-putte bilder i egen folder + comments på filene
+comments på filene
 oppgave5
