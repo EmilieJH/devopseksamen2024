@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppg1b.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg1b.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppg2bapply.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg2bapply.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppg2bapplyUpdate.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg2bapplyUpdate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppg2bplan.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg2bplan.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "oppgave4",
+    "git-widget-placeholder": "readmeEdit",
     "last_opened_file_path": "C:/Users/emili/OneDrive/Skrivebord/DevOpsEksamen/eksamen2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -70,11 +75,11 @@
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\bilder" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave2\infra" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave3" />
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave2utkast2\infra" />
-      <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave2\infra\lambda_code" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for test_handler.test_lambda_handler_success">

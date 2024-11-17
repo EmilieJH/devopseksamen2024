@@ -2,7 +2,9 @@
 Jeg har gjort alle oppgavene, under finner du leveransene.
 
 ## <span style="color: #2988ab">Oppgaver oversikt:</span>
-Kodene til alle oppgavene ligger i mapper som er kalt navnet/nummet på oppgaven. Github actions workflows ligger i en seperat mappe ".github/workflows" (alle workflows uansett oppgave nr ligger her)
+Kodene til alle oppgavene ligger i mapper som er kalt navnet/nummet på oppgaven. 
+Github actions workflows ligger i en seperat mappe ".github/workflows" (alle workflows uansett oppgave nr ligger her)
+Hvis linkene ikke funker har jeg lagt til bilder som ligger i mappen "bilder"
 
 ### <span style="color: #2988ab">Oppgave 1.a</span>
 HTTP endepunkt for lambdafunksjonen (postman url):
@@ -44,7 +46,7 @@ Hvis linken ikke funker se bilde "oppg2bplan"
 
 
 **Link nr 2:**
-PUTT INN LINK OG BILDE
+https://github.com/EmilieJH/devopseksamen2024/actions/runs/11872276548/job/33085794688
 
 Hvis linken ikke funker se bilde "oppg2bplanUpdate" (testen ble gjort i test branchen på github)
 
@@ -84,15 +86,15 @@ Siden oppgave 4 bygger på oppgave 2 skriver jeg en liste med hvilke filer jeg h
 
 **Endrede filer:**
 
-variables.tf
-outputs.tf
-main.tf
+variables.tf </br>
+outputs.tf </br>
+main.tf </br>
 .github/workflows/terraform_deploy
 
 **Nye filer:**
 
-sns_topic.tf
-cloudwatch_alarm.tf
+sns_topic.tf </br>
+cloudwatch_alarm.tf </br>
 
 Gjøre:
 sjekke bilder og link til bare plan på nytt + bilde
