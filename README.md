@@ -1,24 +1,24 @@
-# <span style="color: #2988ab">Leveranse info:</span>
+# Leveranse info:
 Jeg har gjort alle oppgavene, under finner du leveransene.
 
-## <span style="color: #2988ab">Oppgaver oversikt:</span>
+## Oppgaver oversikt:
 Kodene til alle oppgavene ligger i mapper som er kalt navnet/nummet på oppgaven. 
 Github actions workflows ligger i en seperat mappe ".github/workflows" (alle workflows uansett oppgave nr ligger her)
 Hvis linkene ikke funker har jeg lagt til bilder som ligger i mappen "bilder"
 
-### <span style="color: #2988ab">Oppgave 1.a</span>
+### Oppgave 1.a
 HTTP endepunkt for lambdafunksjonen (postman url):
 https://1n1xurg5gk.execute-api.eu-west-1.amazonaws.com/Prod/generate-image
 
-### <span style="color: #2988ab">Oppgave 1.b</span>
+### Oppgave 1.b
 lenke til kjørt github actions workflow:
 https://github.com/EmilieJH/devopseksamen2024/actions/runs/11847732231
 Hvis linken ikke funker se bilde "oppg1b"
 
-### <span style="color: #2988ab">Oppgave 2.a</span>
+### Oppgave 2.a
 Se mappe "Oppgave2" for filer
 
-### <span style="color: #2988ab">Oppgave 2.b</span>
+### Oppgave 2.b
 
 <span style="color: red">NB!!: </span>
 Apply og plan har to linker: en før og en etter oppgave4 siden jeg endret workflow filen etter oppgaven (og glemte versjons krav på den første linken, men det er lagt til på link nr2)
@@ -49,8 +49,9 @@ https://github.com/EmilieJH/devopseksamen2024/actions/runs/11872276548/job/33085
 
 Hvis linken ikke funker se bilde "oppg2bplanUpdate"
 
-<br>
-<span style="color: #106585; font-weight: bold">SQS-kø url:</span>
+
+
+**SQS-kø url:**
 
 https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63
 
@@ -58,8 +59,9 @@ https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63
 
 aws sqs send-message --queue-url https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63 --message-body "A cat reading a book"
 
-<br>
-### <span style="color: #2988ab">Oppgave 3.a + 3.b</span>
+
+
+### Oppgave 3.a + 3.b
 
 **<span style="color: #106585">Hva slags tags jeg har valgt og hvorfor: </span>**
 
@@ -79,7 +81,7 @@ https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63
 
 .... SQS_QUEUE_URL=https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63 emhal/imagegenerator:latest "a pyramid"
 
-### <span style="color: #2988ab">Oppgave 4.a</span>
+### Oppgave 4.a
 Siden oppgave 4 bygger på oppgave 2 skriver jeg en liste med hvilke filer jeg har endret og legger til kommentarer i de filene som viser hva som tilhører oppgave 4
 
 **ALLE FILENE UTENOM WORKFLOWS LIGGER UNDER Oppgave2/infra**
