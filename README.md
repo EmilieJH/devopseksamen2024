@@ -32,7 +32,7 @@ https://github.com/EmilieJH/devopseksamen2024/actions/runs/11847573702/job/33017
 
 Hvis linken ikke funker se bilde "oppg2bapply"
 
-**Link nr 2 (oppdatert workflow file):**
+**Link nr 2:**
 https://github.com/EmilieJH/devopseksamen2024/actions/runs/11872075054/job/33085342070
 
 Hvis linken ikke funker se bilde "oppg2bapplyUpdate"
