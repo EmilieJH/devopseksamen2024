@@ -50,7 +50,7 @@ https://github.com/EmilieJH/devopseksamen2024/actions/runs/11872276548/job/33085
 Hvis linken ikke funker se bilde "oppg2bplanUpdate"
 
 <br>
-**<span style="color: #106585">SQS-kø url:</span>**
+<span style="color: #106585; font-weight: bold">SQS-kø url:</span>
 
 https://sqs.eu-west-1.amazonaws.com/244530008913/image_generation_queue-63
 
