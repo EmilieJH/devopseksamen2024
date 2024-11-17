@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oppg1b.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg1b.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oppg2bapply.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg2bapply.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oppg2bapplyUpdate.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg2bapplyUpdate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oppg2bplan.png" beforeDir="false" afterPath="$PROJECT_DIR$/bilder/oppg2bplan.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
