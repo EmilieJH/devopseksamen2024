@@ -1,7 +1,7 @@
 # OPPGAVE 4
 
 resource "aws_sns_topic" "sqs_alarm_topic" {
-  name = "sqs-alarm-topic"
+  name = "sqs-alarm-topic-63"
 }
 
 resource "aws_sns_topic_subscription" "email_subscription" {
