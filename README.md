@@ -38,7 +38,8 @@ https://github.com/EmilieJH/devopseksamen2024/actions/runs/11872075054/job/33085
 Hvis linken ikke funker se bilde "oppg2bapplyUpdate"
 
 <br>
-**<span style="color: #106585">Terraform PLAN test på push til test branch:</span>**
+
+**Terraform PLAN test på push til test branch:**
 
 **Link nr 1:**
 https://github.com/EmilieJH/devopseksamen2024/actions/runs/11847601156/job/33017596675
@@ -50,7 +51,7 @@ https://github.com/EmilieJH/devopseksamen2024/actions/runs/11872276548/job/33085
 
 Hvis linken ikke funker se bilde "oppg2bplanUpdate"
 
-
+<br>
 
 **SQS-kø url:**
 
