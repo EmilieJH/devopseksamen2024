@@ -24,7 +24,8 @@ Se mappe "Oppgave2" for filer
 Apply og plan har to linker: en før og en etter oppgave4 siden jeg endret workflow filen etter oppgaven (og glemte versjons krav på den første linken, men det er lagt til på link nr2)
 
 <br>
-**<span style="color: #106585">Terraform APPLY test på push til main:</span>**
+
+**Terraform APPLY test på push til main:**
 
 **Link nr1:**
 https://github.com/EmilieJH/devopseksamen2024/actions/runs/11847573702/job/33017510532
