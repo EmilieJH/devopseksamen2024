@@ -1,7 +1,7 @@
 # OPPGAVE 4
 
 resource "aws_cloudwatch_metric_alarm" "sqs_age_alarm" {
-  alarm_name          = "SQS_ApproximateAgeOfOldestMessage_Alarm"
+  alarm_name          = "SQS_Alarm_63"
   comparison_operator = "GreaterThanThreshold"
   evaluation_periods  = "1"
   metric_name         = "ApproximateAgeOfOldestMessage"
