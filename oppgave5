@@ -1,0 +1,13 @@
+1. Serverless arkitektur gir stor fleksibilitet ved å la hver funksjon oppdateres og distribueres individuelt.
+Dette gir oss muligheten til hyppige små oppdateringer og ekel automatisering av infrastruktur ved hjelp av verktøy
+som AWS SAM og Terraform. Dette økte antalle komponenter kan også føre til kompleksitet i pipelines som fører til at
+testing av hele systemet blir utfordrende på grunn av funksjoner ofte er tett knyttet til andre distribuerte tjenester.
+
+I en mikrotjenestearkitektur er CI/CD godt etablert med verktøy som Docker og Kubernetes, som støtter strategier som
+rolling updates og blue-green deployments. Testing og distribusjon kan utførers på tjenestenivå, noe som reduserer
+antall enheter å håndtere. Ulempen er at ressursbruk kan bli høyere, og komplekse avhengigheter mellom tjenester kan
+kreve omfattende testing og koordinering.
+
+Serverless egner seg for små, hyppige endringer med dynamisk skalering, mens mikrotjenester gir mer kontroll og passer
+for komplekse tjenester med etablerte distribusjonsmodeller.
+
