@@ -100,7 +100,13 @@ main.tf </br>
 sns_topic.tf </br>
 cloudwatch_alarm.tf </br>
 
-Gjøre:
-oppgave 4 sjekke om du kan overbelaste
-comments på filene
-oppgave5
+### Oppgave 5
+Se oppgave5.txt
+
+Format:
+- Oppgave 1.a
+- Oppgave 1.b
+- Oppgave 2.a
+- Oppgave 3.a + b
+- Oppgave 4.a
+- Oppgave 5

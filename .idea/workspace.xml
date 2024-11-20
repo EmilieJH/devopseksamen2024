@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/sns_topic.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2/infra/sns_topic.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;readmeEdit&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;oppgave5&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/emili/OneDrive/Skrivebord/DevOpsEksamen/eksamen2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -196,6 +197,7 @@
       <workItem from="1731759826912" duration="4938000" />
       <workItem from="1731765125505" duration="665000" />
       <workItem from="1731765827828" duration="15431000" />
+      <workItem from="1732104857809" duration="1815000" />
     </task>
     <servers />
   </component>
