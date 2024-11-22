@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8a3ad57-b0fd-44b1-b7e7-a8f808519d69" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgave2/infra/cloudwatch_alarm.tf" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgave2/infra/cloudwatch_alarm.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oppgave5" beforeDir="false" afterPath="$PROJECT_DIR$/oppgave5" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EmilieJH&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/EmilieJH/devopseksamen2024.git&quot;,
+    &quot;accountId&quot;: &quot;c4babb77-01c5-4806-8262-6ef8a9c26eb8&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,8 +62,10 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;oppgave5&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/emili/OneDrive/Skrivebord/DevOpsEksamen/eksamen2&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -79,7 +93,7 @@
       <recent name="C:\Users\emili\OneDrive\Skrivebord\DevOpsEksamen\eksamen2\Oppgave2utkast2\infra" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_handler.test_lambda_handler_success">
+  <component name="RunManager">
     <configuration name="Python tests for test_api_gateway.TestApiGateway" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="eksamen2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,13 +184,14 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.Python tests for test_handler.test_lambda_handler_success" />
-        <item itemvalue="Python tests.Python tests for test_api_gateway.TestApiGateway" />
-        <item itemvalue="Python tests.Python tests for test_api_gateway.TestApiGateway.test_api_gateway" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -197,7 +212,10 @@
       <workItem from="1731759826912" duration="4938000" />
       <workItem from="1731765125505" duration="665000" />
       <workItem from="1731765827828" duration="15431000" />
-      <workItem from="1732104857809" duration="1815000" />
+      <workItem from="1732104857809" duration="1868000" />
+      <workItem from="1732196628524" duration="832000" />
+      <workItem from="1732271999330" duration="700000" />
+      <workItem from="1732289499566" duration="1311000" />
     </task>
     <servers />
   </component>

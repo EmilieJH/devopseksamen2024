@@ -1,13 +1,54 @@
-1. Serverless arkitektur gir stor fleksibilitet ved å la hver funksjon oppdateres og distribueres individuelt.
-Dette gir oss muligheten til hyppige små oppdateringer og ekel automatisering av infrastruktur ved hjelp av verktøy
-som AWS SAM og Terraform. Dette økte antalle komponenter kan også føre til kompleksitet i pipelines som fører til at
-testing av hele systemet blir utfordrende på grunn av funksjoner ofte er tett knyttet til andre distribuerte tjenester.
+Svar på spørsmål
 
-I en mikrotjenestearkitektur er CI/CD godt etablert med verktøy som Docker og Kubernetes, som støtter strategier som
-rolling updates og blue-green deployments. Testing og distribusjon kan utførers på tjenestenivå, noe som reduserer
-antall enheter å håndtere. Ulempen er at ressursbruk kan bli høyere, og komplekse avhengigheter mellom tjenester kan
-kreve omfattende testing og koordinering.
+1. Når man sammenligner en serverless arkitektur basert på Function-as-a-Service (FaaS) med en mikrotjenestearkitektur,
+påvirkes CI/CD-prosessene på forskjellige måter. I en serverless arkitektur består applikasjonen av mange små,
+selvstendige funksjoner. Dette kan forenkle utrullingen av individuelle funksjoner på grunn av mindre kodebaser og
+muligheten for uavhengige oppdateringer. Raskere distribusjon er mulig siden hver funksjon kan oppdateres uten å
+påvirke andre.
 
-Serverless egner seg for små, hyppige endringer med dynamisk skalering, mens mikrotjenester gir mer kontroll og passer
-for komplekse tjenester med etablerte distribusjonsmodeller.
+Imidlertid fører det økte antallet komponenter til større kompleksitet i CI/CD-pipelines. Hver funksjon har sin egen
+livssyklus, noe som gjør det utfordrende å koordinere avhengigheter og sikre konsistens på tvers av systemet.
+Begrensninger i serverless-plattformer kan også gjøre det vanskeligere å implementere avanserte utrullingsstrategier
+som kanarilanseringer eller blue-green distribusjon.
 
+I en mikrotjenestearkitektur har man færre, men større tjenester. Dette gir en klarere struktur i CI/CD-pipelines, med
+bedre støtte for avanserte utrullingsstrategier. Mer kontroll over infrastrukturen og miljøkonfigurasjoner gir mulighet
+for tilpasninger etter spesifikke behov. På den andre siden kan større kodebaser gjøre bygging og testing tregere, og
+det kan være mer komplekst å skalere pipelines for hyppige endringer.
+
+
+
+2. Overvåkning, logging og feilsøking endres betydelig når man går fra mikrotjenester til en serverless arkitektur
+(basert på FaaS). I en serverless setting er funksjonene ofte kortlivede og svært distribuerte, noe som kan gjøre
+feilsøking mer utfordrende. Selv om skytilbydere som AWS tilbyr innebygde overvåkningsverktøy for funksjoner, er
+innsikten i den underliggende infrastrukturen begrenset. Det kan være vanskelig å korrelere logger og metrikker på
+tvers av mange små funksjoner, noe som kompliserer identifiseringen av rotårsaker til problemer.
+
+I en mikrotjenestearkitektur har man bedre kontroll over overvåkningsverktøy og kan implementere ende-til-ende sporing
+og logging mer effektivt. Teamet kan tilpasse overvåkningen etter behov og har tilgang til mer detaljerte data.
+Ulempen er at det krever mer arbeid å sette opp og vedlikeholde overvåkningsinfrastrukturen, og kostnadene kan være
+høyere på grunn av behovet for egne overvåkningsløsninger.
+
+
+
+3. Serverless arkitektur tilbyr automatisk skalerbarhet basert på etterspørsel, noe som kan være svært fordelaktig.
+Man betaler kun for faktisk bruk, noe som kan redusere kostnader under lav belastning. Imidlertid kan kostnadene bli
+uforutsigbare ved plutselige trafikkøkninger, og kaldstart-forsinkelser kan påvirke ytelsen negativt. Begrensede
+konfigurasjonsmuligheter for ressursallokering kan også hindre optimal ytelse og kostnadseffektivitet.
+
+I en mikrotjenestearkitektur har man mer kontroll over ressursallokering og kan skreddersy skaleringsstrategier etter
+behov. Dette gir mulighet for kostnadsoptimalisering gjennom nøye planlegging og justering av ressurser. Ulempen er
+at det krever manuell innsats eller komplekse autoskaleringsoppsett for å skalere effektivt. Feil i ressursplanlegging
+kan føre til overprovisjonering og unødvendige kostnader
+
+
+
+4. Overgangen til en serverless tilnærming påvirker DevOps-teamets eierskap og ansvar. Med serverless reduseres det
+operative ansvaret for infrastrukturen, siden skytilbyderen håndterer mye av driften. Dette frigjør tid for teamet til
+å fokusere mer på applikasjonens kode og funksjonalitet. Ulempene inkluderer mindre kontroll over miljøet, noe som kan
+påvirke ytelse og pålitelighet. Det kan også være vanskeligere å feilsøke og optimalisere kostnader uten full innsikt
+i infrastrukturen, og ansvarsfordelingen mellom teamet og skytilbyderen kan bli uklar.
+
+I en mikrotjenestearkitektur har teamet fullt eierskap over tjenestens livssyklus og miljø. Dette gir bedre muligheter
+til å optimalisere ytelse, pålitelighet og kostnader. Samtidig øker ansvaret for drift og vedlikehold av
+infrastrukturen, noe som krever mer ressurser og kompetanse innen DevOps-praksis.
