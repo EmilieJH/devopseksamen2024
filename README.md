@@ -107,6 +107,7 @@ Format:
 - Oppgave 1.a
 - Oppgave 1.b
 - Oppgave 2.a
+- Oppgave 2.b
 - Oppgave 3.a + b
 - Oppgave 4.a
 - Oppgave 5
